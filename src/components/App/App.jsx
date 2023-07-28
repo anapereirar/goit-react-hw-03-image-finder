@@ -73,7 +73,7 @@ class App extends Component {
     }
   }
 
-
+// Load one more page function
   loadMore = () =>{
     this.setState(prevState =>({
       page:prevState.page+1,
